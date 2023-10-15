@@ -806,6 +806,12 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:h-screen {
+    height: 100vh;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:flex-row {
     flex-direction: row;
