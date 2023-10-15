@@ -30,8 +30,63 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <h1>Hello world</h1>
+<body class="bg-black">
+    <main
+        class="h-auto sm:h-screen flex items-center justify-center p-6 bg-twitter-blue selection:bg-black selection:text-white border-8 border-black rounded-3xl">
+        <div class="w-auto">
+            <div class="flex flex-col lg:flex-row items-center gap-10">
+                <div class="relative">
+                    <div
+                        class="flex flex-col items-center justify-center gap-2 absolute z-10 top-0 bottom-0 -translate-x-1/2">
+                        <p
+                            class="px-2 py-1 bg-twitter-blue text-white text-xs font-medium border-2 border-black rounded-full">
+                            Pixel
+                            Pusher</p>
+                        <p
+                            class="px-2 py-1 bg-twitter-blue text-white text-xs font-medium border-2 border-black rounded-full">
+                            Problem Solver</p>
+                    </div>
+                    <img class="hover:animate-spin" src="/src/images/svg/beingsie_avatar.svg" alt="Beingsie Avatar">
+                </div>
+                <div class="flex flex-col gap-8">
+                    <div class="flex flex-col gap-4 text-center lg:text-left">
+                        <h1 class="uppercase text-3xl sm:text-5xl max-w-sm sm:max-w-lg">Just let me write code</h1>
+                        <p class="text-xl">I push to prod, every Friday.</p>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center gap-2">
+                        <a class="w-full" href="https://github.com/beingsie" target="_blank">
+                            <div
+                                class="flex flex-row items-center justify-center gap-2 px-6 py-3 transition-colors bg-black hover:bg-gray-800 text-white border-2 border-black hover:border-gray-800 rounded-2xl cursor-pointer">
+                                <p>GitHub</p>
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                        </a>
+                        <a class="w-full" href="https://twitter.com/beingsie" target="_blank">
+                            <div
+                                class="flex flex-row items-center justify-center gap-2 px-6 py-3 transition-colors bg-transparent text-black hover:text-white border-2 border-black hover:border-white rounded-2xl cursor-pointer">
+                                <p>Twitter</p>
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                        </a>
+                        <a class="w-full" href="https://codepen.io/beingsie" target="_blank">
+                            <div
+                                class="flex flex-row items-center justify-center gap-2 px-6 py-3 transition-colors bg-transparent text-black hover:text-white border-2 border-black hover:border-white rounded-2xl cursor-pointer">
+                                <p>Codepen</p>
+                                <i class="fa-brands fa-codepen"></i>
+                            </div>
+                        </a>
+                        <a class="w-full" href="https://www.instagram.com/beingsie/" target="_blank">
+                            <div
+                                class="flex flex-row items-center justify-center gap-2 px-6 py-3 transition-colors bg-transparent text-black hover:text-white border-2 border-black hover:border-white rounded-2xl cursor-pointer">
+                                <p>Instagram</p>
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
