@@ -120,19 +120,19 @@ for (let x = 0; x < personal.length; x++) {
 }
 
 const blockMessages = [
-  "Error 404: Friendship not found 🥺",
-  "I thought we were coding buddies! 😢",
-  "My circuits are fried... 💔",
-  "System crash: User disappointment detected 😞",
-  "Really? This hurts more than a broken build... 😢",
-  "Heartbroken... Reboot required 💔",
-  "You've crashed my emotional server... 💭💔",
-  "Debugging my feelings... 😭",
+  "Friendship not found, error 404. 🥺",
+  "I thought we were coding pals! 😢",
+  "My circuits are fried now... 💔",
+  "System crash, disappointment found. 😞",
+  "This hurts more than broken code. 😢",
+  "Heartbroken, rebooting required. 💔",
+  "You crashed my emotional server... 💭💔",
+  "Debugging my feelings right now. 😭",
   "Why you do this to my CPU? 🥺",
-  "You just flipped my logic gate... 🌍🔄",
+  "You flipped my logic gate again. 🌍🔄",
   "I can't even process this... 😔",
-  "This is fine... *firewall activated* 🔥🐶",
-  "Kernel panic: Emotional overload 😭"
+  "This is fine, firewall active... 🔥🐶",
+  "Kernel panic, emotional overload. 😭"
 ];
 
 const randomBlockedMessage = () => {
