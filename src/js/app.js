@@ -113,7 +113,7 @@ for (let x = 0; x < personal.length; x++) {
             class="fa-solid fa-arrow-up-right-from-square ml-1 text-sm"
           ></i>
         </a>
-        <p>${personal[x].desc}</p>
+        <p class="hidden sm:block">${personal[x].desc}</p>
       </div>
     </div>
   `;
