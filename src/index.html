@@ -11,7 +11,7 @@
     /_____/\___/_/_/ /_/\__, /____/_/\___/ 
                        /____/ 
 
-    Heyo! Wow, honored to have you here! Thank you for being very interested in my work, nothing crazy (yet) behind the scenes for this site but glad you are here nonetheless.
+    Heyo! Wow, honored to have you here! Thank you for being super interested in my work, nothing crazy here (yet), just behind the scenes for this site but glad you are here nonetheless.
 
     Now that I have you here please don't be shy, checkout my other projects @ https://github.com/beingsie
 
@@ -20,9 +20,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beingsie | Designer & Developer</title>
     <!-- Styling -->
-    <link href="/src/styles/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css">
     <!-- Tailwind CSS -->
-    <link href="/src/styles/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/dist/output.css">
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -31,8 +31,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Temp -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body class="bg-gray-100">
@@ -42,9 +45,9 @@
           class="flex flex-row items-center justify-center md:justify-between"
         >
           <ul class="flex flex-row items-center gap-2">
-            <li class="flex flex-row items-center gap-2">
+            <li class="hidden flex-row items-center gap-2 sm:flex">
               <a
-                class="hover:underline text-blue-700 font-bold text-sm"
+                class="hover:underline text-blue-700 font-semibold text-sm"
                 href="/"
                 >Beingsie</a
               >
@@ -52,7 +55,7 @@
             </li>
             <!-- <li class="flex flex-row items-center gap-2">
               <a
-                class="hover:underline text-gray-400 font-bold text-sm"
+                class="hover:underline text-gray-400 font-semibold text-sm"
                 href="#"
                 target="_blank"
                 >Login <i class="fa-solid fa-lock ml-1"></i
@@ -63,7 +66,7 @@
           <ul class="flex flex-row items-center gap-2">
             <li class="flex flex-row items-center gap-2">
               <a
-                class="hover:underline text-blue-700 font-bold text-sm"
+                class="hover:underline text-blue-700 font-semibold text-sm"
                 href="https://www.codedex.io/@Beingsie"
                 target="_blank"
                 >Codèdex
@@ -73,7 +76,7 @@
             </li>
             <li class="flex flex-row items-center gap-2">
               <a
-                class="hover:underline text-blue-700 font-bold text-sm"
+                class="hover:underline text-blue-700 font-semibold text-sm"
                 href="https://github.com/beingsie"
                 target="_blank"
                 >GitHub
@@ -83,7 +86,7 @@
             </li>
             <li class="flex flex-row items-center gap-2">
               <a
-                class="hover:underline text-blue-700 font-bold text-sm"
+                class="hover:underline text-blue-700 font-semibold text-sm"
                 href="https://x.com/beingsie"
                 target="_blank"
                 >Twitter
@@ -103,7 +106,7 @@
           <aside class="flex flex-col gap-3">
             <div class="flex flex-row items-center justify-between">
               <p>
-                <span class="font-bold">Sergio Estrada (Beingsie)</span>
+                <span class="font-semibold">Sergio Estrada (Beingsie)</span>
               </p>
               <p class="flex flex-row items-center gap-2">
                 <span class="relative flex h-2 w-2">
@@ -114,8 +117,8 @@
                     class="relative inline-flex rounded-full h-2 w-2 bg-green-500"
                   ></span>
                 </span>
-                <span class="text-green-500 text-sm font-bold"
-                  >Collaborations Open</span
+                <span class="text-blue-700 text-sm font-semibold flex items-center gap-1"
+                  >Collaborations <span class="hidden sm:flex">Open</span></span
                 >
               </p>
             </div>
@@ -123,19 +126,19 @@
               class="flex flex-row items-center gap-6 p-4 border-2 border-blue-700 bg-white w-full"
             >
               <img
-                class="w-full max-w-52 md:max-w-64 border-2 border-blue-700"
-                src="./images/webp/beingsie.webp"
+                class="w-full h-full max-w-40 md:max-w-64"
+                src="./img/webp/beingsie.webp"
                 alt="Profile Picture"
               />
               <div class="flex flex-col gap-6 text-sm h-full">
                 <div class="flex flex-col gap-2">
-                  <p class="font-bold">Product Designer</p>
+                  <p class="font-semibold">Product Designer</p>
                   <p>Los Angeles, CA</p>
                 </div>
                 <div class="flex flex-col items-start gap-2">
-                  <p class="font-bold">Lastest Work:</p>
+                  <p class="font-semibold">Lastest Work:</p>
                   <a
-                    class="hover:underline text-blue-700 font-bold text-sm"
+                    class="hover:underline text-blue-700 font-semibold text-sm"
                     href="https://www.figma.com/design/xWOuE8jfkwAfz0vyqUCMX1/Beingsie-%7C-Work?node-id=0-1"
                     target="_blank"
                     >Codèdex
@@ -143,9 +146,9 @@
                   ></a>
                 </div>
                 <div class="flex flex-col items-start gap-2">
-                  <p class="font-bold">Recent Exploration</p>
+                  <p class="font-semibold">Last Exploration</p>
                   <a
-                    class="hover:underline text-blue-700 font-bold text-sm"
+                    class="hover:underline text-blue-700 font-semibold text-sm"
                     href="https://habits-tracker-v1.vercel.app/"
                     target="_blank"
                     >Habit Tracker
@@ -157,7 +160,7 @@
           </aside>
           <aside class="flex flex-col">
             <div class="flex flex-col px-7 py-3 bg-blue-700">
-              <p class="font-lg font-bold text-white">Contacting Sergio</p>
+              <p class="font-lg font-semibold text-white">Contacting Sergio</p>
             </div>
             <nav class="p-4 bg-white border-2 border-blue-700 h-full">
               <ul
@@ -166,7 +169,7 @@
                 <div class="flex flex-col gap-4">
                   <li class="flex flex-row items-center gap-2">
                     <span
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       id="emailBtn"
                     >
                       <i class="fa-solid fa-envelope text-md text-blue-700"></i>
@@ -175,7 +178,7 @@
                   </li>
                   <li class="flex flex-row items-center gap-2">
                     <a
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       href="https://www.linkedin.com/in/sergio-estrada-beingsie/"
                       target="_blank"
                     >
@@ -189,7 +192,7 @@
                   </li>
                   <li class="flex flex-row items-center gap-2">
                     <a
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       href="https://x.com/beingsie"
                       id="instantMessageBtn"
                       target="_blank"
@@ -202,7 +205,7 @@
                   </li>
                   <li class="flex flex-row items-center gap-2">
                     <a
-                      class="hover:underline flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="hover:underline flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       href="https://discord.gg/kcwS5kUs"
                       target="_blank"
                     >
@@ -214,7 +217,7 @@
                 <div class="flex flex-col gap-4">
                   <li class="flex flex-row items-center gap-2">
                     <a
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       href="https://twitter.com/intent/tweet?text=Blown%20away%20by%20%40beingsie's%20OOTB%20creativity.%20If%20you%20need%20a%20creative%20problem%20solver%20who%20excels%20in%20product%20design,%20highly%20recommend%20working%20with%20them."
                       target="_blank"
                     >
@@ -226,7 +229,7 @@
                   </li>
                   <li class="flex flex-row items-center gap-2">
                     <a
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       href="https://codepen.io/beingsie"
                       target="_blank"
                     >
@@ -236,7 +239,7 @@
                   </li>
                   <li class="flex flex-row items-center gap-2">
                     <span
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm cursor-pointer"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm cursor-pointer"
                       id="blockUserBtn"
                       target="_blank"
                     >
@@ -246,7 +249,7 @@
                   </li>
                   <li class="flex flex-row items-center gap-2">
                     <a
-                      class="flex flex-row items-center gap-4 text-blue-700 font-bold text-sm"
+                      class="flex flex-row items-center gap-4 text-blue-700 font-semibold text-sm"
                       href="https://twitter.com/intent/tweet?text=I%20ranked%20%40beingsie%20as%20one%20of%20my%20new%20top%20creatives%20on%20the%20web,%20come%20take%20a%20look!%20beingsie.com%20%F0%9F%8F%86"
                       target="_blank"
                     >
@@ -266,16 +269,14 @@
             <div class="flex flex-row gap-2 w-full">
               <div class="flex flex-col gap-6 w-full">
                 <div class="flex flex-col gap-4 w-full">
-                  <p class="font-bold border-b-2 pb-4">Recent Work</p>
+                  <p class="font-semibold border-b-2 pb-4 mx-auto sm:mx-0">Recent Work</p>
                   <!-- Generate work projects -->
                   <div class="flex flex-col gap-4" id="projectsWork"></div>
                 </div>
                 <div class="flex flex-col gap-4">
-                  <p class="font-bold border-b-2 pb-4">
-                    Explorations In Progress
-                  </p>
+                  <p class="font-semibold border-b-2 pb-4 mx-auto sm:mx-0">Explorations In Progress</p>
                   <!-- Generate work projects -->
-                  <div class="flex flex-col gap-4" id="projectsPersonal"></div>
+                  <div class="flex flex-col items-center sm:items-start gap-4" id="projectsPersonal"></div>
                 </div>
               </div>
             </div>
@@ -285,16 +286,16 @@
     </main>
     <footer class="sticky bottom-0 bg-gray-200">
       <div class="container mx-auto p-4">
-        <div class="flex items-center justify-center">
+        <div class="flex flex-col sm:flex-row items-center justify-center">
           <p class="text-sm text-gray-400">&copy; 2024 Beingsie.com</p>
-          <span class="mx-2 text-gray-400">|</span>
+          <span class="mx-2 text-gray-400 hidden sm:block">|</span>
           <p class="text-sm text-gray-400">Made with ❤️ in sunny California</p>
         </div>
       </div>
     </footer>
     <!-- Notifications -->
     <div
-      class="p-4 bg-blue-700 flex flex-row items-center justify-between gap-6 fixed -bottom-40 right-0 m-4 shadow-xl"
+      class="p-4 bg-blue-700 w-full flex flex-row items-center justify-between gap-6 fixed -bottom-40 shadow-xl"
       id="notificationContainer"
     >
       <div class="text-white text-sm" id="notification"></div>
