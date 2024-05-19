@@ -79,7 +79,7 @@ const projectsWork = document.getElementById("projectsWork");
 
 for (let i = 0; i < works.length; i++) {
   projectsWork.innerHTML += `
-    <div class="flex flex-row justify-center sm:justify-between sm:pl-8 gap-1 text-sm">
+    <div class="flex flex-row justify-center sm:justify-between pl-0 lg:pl-8 gap-1 text-sm">
       <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">
         <a
           class="hover:underline flex flex-row items-center gap-1 text-blue-700 font-bold"
@@ -101,7 +101,7 @@ const projectsPersonal = document.getElementById("projectsPersonal");
 
 for (let x = 0; x < personal.length; x++) {
   projectsPersonal.innerHTML += `
-    <div class="flex flex-row justify-between pl-8 gap-1 text-sm">
+    <div class="flex flex-row justify-between pl-0 lg:pl-8 gap-1 text-sm">
       <div class="flex flex-row items-center gap-4">
         <a
           class="hover:underline flex flex-row items-center gap-1 text-blue-700 font-bold"
