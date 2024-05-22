@@ -1,16 +1,16 @@
 const works = [
   {
-    company: "Codèdex | On Platform Community",
+    company: "Codédex | On Platform Community",
     desc: "UI/UX Designer",
     url: "https://www.figma.com/design/xWOuE8jfkwAfz0vyqUCMX1/Beingsie-%7C-Work?node-id=0%3A1&t=OsA55QSqTTeAo7Lj-1"
   },
   {
-    company: "Codèdex | About Landing Page",
+    company: "Codédex | About Landing Page",
     desc: "UI/UX Designer",
     url: "https://www.figma.com/design/xWOuE8jfkwAfz0vyqUCMX1/Beingsie-%7C-Work?node-id=1%3A1010&t=OsA55QSqTTeAo7Lj-1"
   },
   {
-    company: "Codèdex | User Profile",
+    company: "Codédex | User Profile",
     desc: "UI/UX Designer",
     url: "https://www.figma.com/design/xWOuE8jfkwAfz0vyqUCMX1/Beingsie-%7C-Work?node-id=1%3A1513&t=OsA55QSqTTeAo7Lj-1"
   },
