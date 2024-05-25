@@ -1,3 +1,9 @@
+window.addEventListener("load", (event) => {
+  new cursoreffects.fairyDustCursor({
+    colors: ["#1C4ED8", "#000000"],
+  });
+});
+
 const works = [
   {
     company: "Codédex | On Platform Community",
