@@ -669,6 +669,11 @@ video {
   cursor: pointer;
 }
 
+.columns-2 {
+  -moz-columns: 2;
+       columns: 2;
+}
+
 .flex-row {
   flex-direction: row;
 }

@@ -19,3 +19,6 @@ Desktop.ini
 
 # Ignore Python __pycache__ directory
 *__pycache__/
+
+# JSON Settings
+settings.json
