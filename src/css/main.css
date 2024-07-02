@@ -2,15 +2,3 @@
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
   text-wrap: balance;
 }
-
-body {
-  font-family: "Verdana", Arial, sans-serif;
-}
-
-.bg-naranja-500 {
-  background-color: #ff6e10;
-}
-
-.text-green-500 {
-  color: #40a64b;
-}
